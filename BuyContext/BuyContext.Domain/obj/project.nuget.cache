@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xj7feUP4jNHV1WnDZ+DcX0K+uP/mU6/lwr3AjJ1efn4s7qcT3obynTqzYVTXM5FSNZfIs+6mkqep12dcDqlKYg==",
+  "dgSpecHash": "7VLAvPl/aFqS9mets7F7mKIR6LwvV8diCi4naOZe00vomIZUCLeqUh8so1SnkOx/+0hNoXzqHJjLVlPcMazs4g==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj",
+  "projectFilePath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\buycontext.domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

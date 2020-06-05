@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj": {}
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\buycontext.domain.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj": {
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\buycontext.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj",
-        "projectName": "BuyContext.domain",
-        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj",
+        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\buycontext.domain.csproj",
+        "projectName": "buycontext.domain",
+        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\buycontext.domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -41,6 +41,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[*, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
