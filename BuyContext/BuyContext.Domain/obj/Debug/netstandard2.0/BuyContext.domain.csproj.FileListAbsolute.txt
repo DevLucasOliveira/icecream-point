@@ -1,0 +1,9 @@
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\bin\Debug\netstandard2.0\BuyContext.domain.deps.json
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\bin\Debug\netstandard2.0\BuyContext.domain.dll
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\bin\Debug\netstandard2.0\BuyContext.domain.pdb
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.csprojAssemblyReference.cache
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.csproj.CoreCompileInputs.cache
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.AssemblyInfoInputs.cache
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.AssemblyInfo.cs
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.dll
+C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.domain\obj\Debug\netstandard2.0\BuyContext.domain.pdb
