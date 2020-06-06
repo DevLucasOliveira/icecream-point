@@ -1,7 +1,7 @@
 using System;
 using Flunt.Notifications;
 
-namespace BuyContext.Domain
+namespace BuyContext.Domain.Entities
 {
     public class Entity: Notifiable
     {

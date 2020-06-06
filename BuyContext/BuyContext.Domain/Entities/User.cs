@@ -1,15 +1,16 @@
-namespace BuyContext.Domain
+
+namespace BuyContext.Domain.Entities
 {
     public class User : Entity
     {
         public User(string userName, string password)
         {
-            this.UserName = userName;
-            this.Password = password;
+            UserName = userName;
+            Password = password;
         }
 
         public string UserName { get; private set; }
-        public string Password { get; set; }
+        public string Password { get; private set; }
 
     }
 
