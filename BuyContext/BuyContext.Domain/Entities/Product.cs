@@ -14,6 +14,9 @@ namespace BuyContext.Domain.Entities
         public decimal Price { get; private set; }
         public bool Roof { get; private set; }
         public bool AdditionalItem { get; private set; }
+        //Trocar tipo boolean para enum e com isso definir os valores de acrescimo
+        //Verificar como fazer um array para ir somando os preços
+
 
     }
 }

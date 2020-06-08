@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
+using Flunt.Validations;
 
 namespace BuyContext.Domain.Entities
 {
     public class Order : Entity
     {
-        public Order( DateTime date)
+        public Order()
         {
-            Date = date;
+            Date = DateTime.Now;
             Number = Guid.NewGuid().ToString().Substring(0,0);
+            Items = new List<OrderItem>();
         }
 
         public DateTime Date { get; private set; }
