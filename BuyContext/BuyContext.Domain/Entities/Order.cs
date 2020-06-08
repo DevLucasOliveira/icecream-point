@@ -1,18 +1,23 @@
 using System;
+using System.Collections.Generic;
 
 namespace BuyContext.Domain.Entities
 {
     public class Order : Entity
     {
-        public Order( User user, DateTime date)
+        public Order( DateTime date)
         {
-            User = user;
             Date = date;
+            Number = Guid.NewGuid().ToString().Substring(0,0);
         }
 
-        public User User { get; private set; }
         public DateTime Date { get; private set; }
-        //Adicionar uma lista de itens de pedido
+        public string Number { get; private set; }
+        public IList<OrderItem> Items { get; private set; }
+
+
+        
+
     }
 
 }
