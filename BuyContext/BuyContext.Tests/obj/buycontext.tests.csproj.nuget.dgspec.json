@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj": {}
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj": {
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj",
-        "projectName": "BuyContext.domain",
-        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj",
+        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj",
+        "projectName": "BuyContext.Domain",
+        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\obj\\",
+        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -58,18 +62,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj": {
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj",
-        "projectName": "BuyContext.tests",
-        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj",
+        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
+        "projectName": "buycontext.tests",
+        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\obj\\",
+        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj": {
-                "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj"
+              "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj": {
+                "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj"
               }
             }
           }
@@ -135,7 +139,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

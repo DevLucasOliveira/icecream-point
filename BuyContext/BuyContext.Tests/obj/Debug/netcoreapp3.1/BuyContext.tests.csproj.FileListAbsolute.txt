@@ -94,3 +94,4 @@ C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.tests\obj\Debug\net
 C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.tests\obj\Debug\netcoreapp3.1\BuyContext.tests.genruntimeconfig.cache
 C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.tests\bin\Debug\netcoreapp3.1\BuyContext.domain.dll
 C:\Dev\icecream\icecream-point_Backend\BuyContext\BuyContext.tests\bin\Debug\netcoreapp3.1\BuyContext.domain.pdb
+C:\Dev\icecream\icecream-point_Backend\BuyContext\buycontext.tests\bin\Debug\netcoreapp3.1\Flunt.dll

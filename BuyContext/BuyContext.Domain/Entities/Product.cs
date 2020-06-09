@@ -8,12 +8,12 @@ namespace BuyContext.Domain.Entities
         {
             Title = title;
             Price = price;
-            EAdditionalItem[0] = additionalItem;
+            EAdditionalItem = additionalItem;
         }
 
         public string Title { get; private set; }
         public decimal Price { get; private set; }
-        public EAdditionalItem[] EAdditionalItem { get; private set; }
+        public EAdditionalItem EAdditionalItem { get; private set; }
 
         /*
         public decimal Price(additional EAdditionalItem)

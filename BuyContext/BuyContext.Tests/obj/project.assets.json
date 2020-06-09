@@ -8,6 +8,15 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.5.0": {
         "type": "package",
         "compile": {
@@ -1635,14 +1644,17 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "BuyContext.domain/1.0.0": {
+      "BuyContext.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Flunt": "1.0.5"
+        },
         "compile": {
-          "bin/placeholder/BuyContext.domain.dll": {}
+          "bin/placeholder/BuyContext.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BuyContext.domain.dll": {}
+          "bin/placeholder/BuyContext.Domain.dll": {}
         }
       }
     }
@@ -1677,6 +1689,18 @@
         "build/netstandard1.0/coverlet.core.pdb",
         "coverlet.collector.1.2.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.5.0": {
@@ -5643,15 +5667,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "BuyContext.domain/1.0.0": {
+    "BuyContext.Domain/1.0.0": {
       "type": "project",
-      "path": "../BuyContext.domain/BuyContext.domain.csproj",
-      "msbuildProject": "../BuyContext.domain/BuyContext.domain.csproj"
+      "path": "../BuyContext.Domain/BuyContext.Domain.csproj",
+      "msbuildProject": "../BuyContext.Domain/BuyContext.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "BuyContext.domain >= 1.0.0",
+      "BuyContext.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5665,11 +5689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj",
-      "projectName": "BuyContext.tests",
-      "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\BuyContext.tests.csproj",
+      "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
+      "projectName": "buycontext.tests",
+      "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.tests\\obj\\",
+      "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5688,8 +5712,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj": {
-              "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.domain\\BuyContext.domain.csproj"
+            "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj": {
+              "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj"
             }
           }
         }
@@ -5735,7 +5759,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

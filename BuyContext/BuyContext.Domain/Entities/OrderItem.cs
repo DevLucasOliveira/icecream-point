@@ -10,7 +10,7 @@ namespace BuyContext.Domain.Entities
             AddNotifications(
                 new Contract()
                 .Requires()
-                .IsNull(product, "Product", "Produto inválido")
+                .IsNotNull(product, "Product", "Produto inválido")
                 .IsGreaterThan(quantity, 0, "Quantity", "A quantidade deve ser maior que zero")
             );
 
