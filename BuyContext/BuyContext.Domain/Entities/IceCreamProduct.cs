@@ -1,3 +1,5 @@
+using BuyContext.Domain.Enums;
+
 namespace BuyContext.Domain.Entities
 {
     public class IceCreamProduct : Product
@@ -6,12 +8,10 @@ namespace BuyContext.Domain.Entities
             int numberOfBals,
             string title,
             decimal price,
-            bool roof,
-            bool additionalItem
+            EAdditionalItem additionalItem
         ) : base(
             title,
             price,
-            roof,
             additionalItem
         )
         {

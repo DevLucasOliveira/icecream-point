@@ -14,8 +14,8 @@ namespace BuyContext.Domain.Entities
                 .IsGreaterThan(quantity, 0, "Quantity", "A quantidade deve ser maior que zero")
             );
 
-            Product = product; 
-            Price = Product != null ? product.Price : 0; 
+            Product = product;
+            Price = Product != null ? product.Price : 0;
             Quantity = quantity;
         }
 
@@ -24,6 +24,10 @@ namespace BuyContext.Domain.Entities
         public decimal Price { get; private set; }
         public int Quantity { get; private set; }
 
+        public decimal Total()
+        {
+            return Price * Quantity;
+        }
 
     }
 }

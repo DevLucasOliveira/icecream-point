@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.domain\\buycontext.domain.csproj": {}
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\buycontext.domain.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.domain\\buycontext.domain.csproj": {
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\buycontext.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.domain\\buycontext.domain.csproj",
+        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\buycontext.domain.csproj",
         "projectName": "buycontext.domain",
-        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.domain\\buycontext.domain.csproj",
+        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\buycontext.domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.domain\\obj\\",
+        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,7 +62,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

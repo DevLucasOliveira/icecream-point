@@ -1,4 +1,4 @@
-namespace BuyContext.Domain.Enum
+namespace BuyContext.Domain.Enums
 {
     public enum EAcaiSize
     {

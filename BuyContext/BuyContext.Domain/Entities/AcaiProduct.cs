@@ -1,4 +1,4 @@
-using BuyContext.Domain.Enum;
+using BuyContext.Domain.Enums;
 
 namespace BuyContext.Domain.Entities
 {
@@ -9,12 +9,10 @@ namespace BuyContext.Domain.Entities
             EAcaiSize size,
             string title,
             decimal price,
-            bool roof,
-            bool additionalItem
+            EAdditionalItem additionalItem
         ) : base(
             title,
             price,
-            roof,
             additionalItem
         )
         {
