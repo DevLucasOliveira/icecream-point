@@ -1,7 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BuyContext.Domain.Entities;
-using BuyContext.Domain.Enums;
 
 namespace BuyContext.Tests.Entities
 {
@@ -22,7 +21,7 @@ namespace BuyContext.Tests.Entities
         public void Dado_um_pedido_com_quantidade_igual_a_zero_o_mesmo_nao_deve_ser_gerado()
         {
             var order = new Order();
-            var product = new Product("sorvete", 5, EAdditionalItem.Granulado);
+            var product = new Product("sorvete", 5, null);
             order.AddItem(product, 0);
             Assert.AreEqual(order.Items.Count, 0);
         }
