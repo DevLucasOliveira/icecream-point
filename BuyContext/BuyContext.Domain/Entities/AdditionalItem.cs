@@ -1,10 +1,25 @@
-namespace BuyContext.Domain.Entities 
+namespace BuyContext.Domain.Entities
 {
     public class AdditionalItem
     {
-        public decimal Granola = 3.5M;
-        public decimal Granulado = 2.5M;
-        public decimal Flocos = 1.80M;
+        public AdditionalItem(string choose)
+        {
+
+            switch (choose)
+            {
+                case "Granola":
+                    Price = 3.5M;
+                    break;
+                case "Granulado":
+                    Price = 2.5M;
+                    break;
+                case "Flocos":
+                    Price = 3M;
+                    break;
+            }
+        }
+
+        public decimal Price { get; private set; }
 
     }
 }
