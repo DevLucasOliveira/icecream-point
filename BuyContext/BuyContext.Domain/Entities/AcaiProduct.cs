@@ -9,7 +9,7 @@ namespace BuyContext.Domain.Entities
             EAcaiSize size,
             string title,
             decimal price,
-            AdditionalItem additionalItem
+            decimal additionalItem
         ) : base(
             title,
             price,

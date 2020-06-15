@@ -8,7 +8,7 @@ namespace BuyContext.Domain.Entities
             int numberOfBals,
             string title,
             decimal price,
-            AdditionalItem additionalItem
+            decimal additionalItem
         ) : base(
             title,
             price,
