@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj": {}
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buyContext.Tests\\buycontext.tests.csproj": {}
   },
   "projects": {
     "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\BuyContext.Domain\\BuyContext.Domain.csproj": {
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj": {
+    "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buyContext.Tests\\buycontext.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
+        "projectUniqueName": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buyContext.Tests\\buycontext.tests.csproj",
         "projectName": "buycontext.tests",
-        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\buycontext.tests.csproj",
+        "projectPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buyContext.Tests\\buycontext.tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buycontext.tests\\obj\\",
+        "outputPath": "C:\\Dev\\icecream\\icecream-point_Backend\\BuyContext\\buyContext.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
