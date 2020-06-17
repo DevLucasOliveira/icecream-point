@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("buycontext.domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BuyContext.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("buycontext.domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("buycontext.domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("BuyContext.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BuyContext.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

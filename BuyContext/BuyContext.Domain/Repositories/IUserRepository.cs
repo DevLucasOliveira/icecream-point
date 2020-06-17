@@ -4,6 +4,6 @@ namespace BuyContext.Domain.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        User Get(string user);
+        User Get(string password);
     }
 }
